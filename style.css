@@ -1,0 +1,43 @@
+body {
+    font-family: consolas;
+    font-size: 18px;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.game-section {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#22deff, #ddfaff);
+}
+
+.game-score {
+    background-color: rgba(30, 30, 30, 0.7);
+    color: white;
+    text-align: center;
+}
+
+.game-over,
+.game-start {
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(22, 175, 16);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.game-over {
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+}
