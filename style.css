@@ -2,6 +2,7 @@ body {
     font-family: consolas;
     font-size: 18px;
     margin: 0;
+    overflow: hidden;
 }
 
 h1 {
@@ -15,9 +16,15 @@ h1 {
 }
 
 .game-score {
+    position: absolute;
     background-color: rgba(30, 30, 30, 0.7);
     color: white;
     text-align: center;
+    right: 0;
+}
+
+.game-area {
+    height: 100vh;
 }
 
 .game-over,
