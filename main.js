@@ -38,10 +38,6 @@ const factory = {
 
 // Input control
 
-// Screen management
-
-// Game loop
-
 // Game frames
 function newFrame() {
     const wizardElement = document.querySelector('.wizard');
