@@ -4,8 +4,8 @@ export const state = {
     wizard: {
         x: 100,
         y: 100,
-        width: 60,
-        height: 60,
+        width: 70,
+        height: 70,
         lastMagicUse: 0,
         cooldown: 500,
     },
@@ -19,5 +19,5 @@ export const state = {
         Space: false,
     },
     lastBugSpawn: 0,
-    maxBugSpawnTime: 6000,
+    maxBugSpawnTime: 30000,
 };
