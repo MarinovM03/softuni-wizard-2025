@@ -6,6 +6,8 @@ export const state = {
         y: 100,
         width: 60,
         height: 60,
+        lastMagicUse: 0,
+        cooldown: 500,
     },
     isGameOver: false,
     score: 0,

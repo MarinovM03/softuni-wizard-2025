@@ -9,6 +9,12 @@ function newFrame() {
     // Move wizard
     modifyWizardPosition();
 
+    // Modify fireballs
+    const fireballs = document.querySelectorAll('.fireball');
+    for (const fireball of fireballs) {
+        fireball.style.left = fireball.offsetLeft + config.magicSpeed + 'px';
+    }
+
     // Apply score
     state.score += config.timePoints;
     gameScore.textContent = state.score + ' Pts.'
