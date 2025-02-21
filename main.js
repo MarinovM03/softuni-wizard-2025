@@ -4,10 +4,18 @@ const state = {
     wizard: {
         x: 100,
         y: 100,
-        width: 50,
-        height: 50,
+        width: 60,
+        height: 60,
     },
     isGameOver: false,
+    points: 0,
+    controls: {
+        KeyA: false,
+        KeyS: false,
+        KeyD: false,
+        KeyW: false,
+        Space: false,
+    },
 };
 
 // Game object creation
@@ -37,6 +45,17 @@ const factory = {
 }
 
 // Input control
+document.addEventListener('keydown', (e) => {
+    if (state.controls.hasOwnProperty(e.code)) {
+        state.controls[e.code] = true;
+    }
+});
+
+document.addEventListener('keyup', (e) => {
+    if (state.controls.hasOwnProperty(e.code)) {
+        state.controls[e.code] = false;
+    }
+});
 
 // Game frames
 function newFrame() {
