@@ -20,6 +20,9 @@ function newFrame() {
         }
     }
 
+    // Create bugs
+    factory.createBug();
+
     // Apply score
     state.score += config.timePoints;
     gameScore.textContent = state.score + ' Pts.'
