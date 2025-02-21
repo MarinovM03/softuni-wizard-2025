@@ -8,7 +8,7 @@ export const state = {
         height: 60,
     },
     isGameOver: false,
-    points: 0,
+    score: 0,
     controls: {
         KeyW: false,
         KeyA: false,
