@@ -6,7 +6,6 @@ import "./game-controls.js";
 
 
 // Start game
-
 const startElement = document.querySelector('.game-start');
 startElement.addEventListener('click', (e) => {
     // Hide start element

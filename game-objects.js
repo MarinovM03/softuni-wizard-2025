@@ -38,8 +38,8 @@ export const factory = {
         fireballElement.style.backgroundSize = 'contain';
         fireballElement.style.backgroundRepeat = 'no-repeat'
         fireballElement.style.backgroundPosition = 'center'
-        fireballElement.style.width = '10px';
-        fireballElement.style.height = '10px';
+        fireballElement.style.width = '20px';
+        fireballElement.style.height = '20px';
         fireballElement.style.position = 'absolute';
 
         // Set position
@@ -64,8 +64,8 @@ export const factory = {
         bugElement.style.backgroundSize = 'contain';
         bugElement.style.backgroundRepeat = 'no-repeat'
         bugElement.style.backgroundPosition = 'center'
-        bugElement.style.width = '10px';
-        bugElement.style.height = '10px';
+        bugElement.style.width = '30px';
+        bugElement.style.height = '30px';
         bugElement.style.position = 'absolute';
 
         // Set position

@@ -4,8 +4,8 @@ export const state = {
     wizard: {
         x: 100,
         y: 100,
-        width: 70,
-        height: 70,
+        width: 80,
+        height: 80,
         lastMagicUse: 0,
         cooldown: 500,
     },
