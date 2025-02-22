@@ -53,11 +53,7 @@ function newFrame() {
 
         // Move bugs
         bug.style.left = bug.offsetLeft - config.bugSpeed + 'px';
-
-        // Moving clouds
-
-        
-    })
+    });
 
     // Apply score
     state.score += config.timePoints;

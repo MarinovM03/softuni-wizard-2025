@@ -75,5 +75,5 @@ export const factory = {
         // Append to DOM
         gameArea.appendChild(bugElement);
 
-    }
+    }   
 }
